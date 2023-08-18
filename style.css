@@ -8,10 +8,12 @@
 
 .navbar::before{
     content: "";
-    background-image: url(hero.jpg);
+    background-image: url(/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     height: 650px;
-    width: 100%;
+    width: 80%;
     z-index: -1;
 }
 .navbar{
@@ -19,8 +21,10 @@
 }
 
 .logo img{
+    width: 123px;
     height: 49px;
     margin: 0 20px;
+    
 }
 
 .nav-one{
